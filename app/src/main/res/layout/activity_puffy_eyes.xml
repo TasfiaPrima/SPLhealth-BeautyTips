@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".puffyEyes">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="65dp"
+                android:text="For Puffy Eyes
+\n\n 1. Cucumber With Basil Tea
+I know how much you hate waking up each morning with puffy eyes. This can be cured with basil tea and cucumber juice. Mix the two and pour the liquid into the ice tray. Place the ice cubes on your eyes.
+\n    \n
+2. Cold Compress
+\nUse cold water or ice cube bags to make cold compresses. Place them on your eyes and repeat until the puffiness is gone.
+  \n\n
+3. Tea Bags
+ \n
+Soak two tea bags in warm water and then cool them in the fridge for a few minutes. Place them on your eyes for several minutes. Your eyes will feel refreshed. This is because tea contains tannins that are excellent in reducing puffiness.
+
+"></TextView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

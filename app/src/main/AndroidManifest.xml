@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.prima.iut.splhealthandbeautytips">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".forKids"></activity>
+        <activity android:name=".forAdult" />
+        <activity android:name=".blackheads" />
+        <activity android:name=".acne" />
+        <activity android:name=".lipCare" />
+        <activity android:name=".sensitiveSkin" />
+        <activity android:name=".drySkin" />
+        <activity android:name=".oilySkin" />
+        <activity android:name=".contactLenses" />
+        <activity android:name=".sunkenEyes" />
+        <activity android:name=".puffyEyes" />
+        <activity android:name=".darkCircles" />
+        <activity android:name=".hairfall" />
+        <activity android:name=".grayHair" />
+        <activity android:name=".splitEnds" />
+        <activity android:name=".dandruff" />
+        <activity android:name=".food" />
+        <activity android:name=".goodHabits" />
+        <activity android:name=".stayFit" />
+        <activity android:name=".skin" />
+        <activity android:name=".hair" />
+        <activity android:name=".face" />
+        <activity android:name=".eyes" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

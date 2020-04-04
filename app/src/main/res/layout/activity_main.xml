@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BCE4E3"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/tip1"
+        android:layout_width="408dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="270dp"
+        android:background="#A6DAE8"
+        android:gravity="center_horizontal"
+        android:text="beauty tips"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/tip2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="0dp"
+        android:background="#A6DAE8"
+        android:gravity="center_horizontal"
+        android:text="health tips"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="463dp"
+        android:layout_marginEnd="0dp"
+        android:background="#9A0288D1"
+        android:text="eyes" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="333dp"
+        android:background="#9A0288D1"
+        android:text="face" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="399dp"
+        android:layout_marginEnd="-1dp"
+        android:background="#9A0288D1"
+        android:text="skin" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="529dp"
+        android:layout_marginBottom="130dp"
+        android:background="#9A0288D1"
+        android:text="hair" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="206dp"
+        android:background="#9A0288D1"
+        android:text="good habits" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="139dp"
+        android:layout_marginEnd="0dp"
+        android:background="#9A0288D1"
+        android:text="stay fit" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="408dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="75dp"
+        android:background="#9A0288D1"
+        android:text="food" />
+
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hair4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BCE4E3"
+    tools:context=".hair">
+
+
+    <Button
+        android:id="@+id/button41"
+        android:layout_width="403dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="104dp"
+        android:text="dandruff"
+        android:background="#9A0288D1"/>
+
+    <Button
+        android:id="@+id/button42"
+        android:layout_width="403dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="421dp"
+        android:text="split ends"
+        android:background="#9A0288D1"/>
+
+    <Button
+        android:id="@+id/button43"
+        android:layout_width="403dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="211dp"
+        android:text="grey hair"
+        android:background="#9A0288D1"/>
+
+    <Button
+        android:id="@+id/button44"
+        android:layout_width="403dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="315dp"
+        android:text="hairfall"
+        android:background="#9A0288D1"/>
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="30dp"
+        android:text="Hair tips"
+        android:background="#A6DAE8"/>
+</RelativeLayout>

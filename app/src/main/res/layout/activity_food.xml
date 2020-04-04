@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".food">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="65dp"
+                android:text="Vitamin Sources
+                                                           \n
+Water soluble:                                               \n
+B-1: ham, soymilk, watermelon, acorn squash                    \n
+
+B-2: milk, yogurt, cheese, whole and enriched grains and cereals.
+                                                                   \n
+B-3: meat, poultry, fish, fortified and whole grains, mushrooms, potatoes
+                                                                     \n
+B-5: chicken, whole grains, broccoli, avocados, mushrooms
+                 \n
+B-6: meat, fish, poultry, legumes, tofu and other soy products, bananas
+                   \n
+B-7: Whole grains, eggs, soybeans, fish
+                     \n
+B-9: Fortified grains and cereals, asparagus, spinach, broccoli, legumes (black-eyed peas and chickpeas), orange juice
+                       \n
+B-12: Meat, poultry, fish, milk, cheese, fortified soymilk and cereals
+                         \n
+Vitamin C: Citrus fruit, potatoes, broccoli, bell peppers, spinach, strawberries, tomatoes, Brussels sprouts
+                           \n
+Fat soluble:
+                               \n
+Vitamin A: beef, liver, eggs, shrimp, fish, fortified milk, sweet potatoes, carrots, pumpkins, spinach, mangoes
+                                 \n
+Vitamin D: Fortified milk and cereals, fatty fish
+                                   \n
+Vitamin E: vegetables oils, leafy green vegetables, whole grains, nuts
+                                     \n
+Vitamin K: Cabbage, eggs, milk, spinach, broccoli, kale
+                  \n\n
+Minerals \n
+Major:     \n
+
+Calcium: yogurt, cheese, milk, salmon, leafy green vegetables
+             \n
+Chloride: salt
+               \n
+Magnesium: Spinach, broccoli, legumes, seeds, whole-wheat bread
+                 \n
+Potassium: meat, milk, fruits, vegetables, grains, legumes
+                   \n
+Sodium: salt, soy sauce, vegetables
+                     \n
+Trace:                 \n
+
+Chromium: meat, poultry, fish, nuts, cheese
+                         \n
+Copper: shellfish, nuts, seeds, whole-grain products, beans, prunes
+                           \n
+Fluoride: fish, teas
+                             \n
+Iodine: Iodized salt, seafood  \n
+
+Iron: red meat, poultry, eggs, fruits, green vegetables, fortified bread
+                               \n
+Manganese: nuts, legumes, whole grains, tea
+                                 \n
+Selenium: Organ meat, seafood, walnuts
+                                   \n
+Zinc: meat, shellfish, legumes, whole grains\n\n">
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

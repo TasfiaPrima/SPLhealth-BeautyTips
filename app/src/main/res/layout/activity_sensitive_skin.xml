@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sensitiveSkin">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="65dp"
+                android:text="Sensitive skin:          \n
+Your skin can be a sufferer of dry yet sensitive skin prone to rashes, or even an oily skin holder but with acne breakout possibility. Sensitive skin needs extra care and gentle but maintained routine.
+                                                         \n\n
+1. Be gentle on face washing, 2 times is good for dry skin bearers with sensitivity but 3 times is better for the oily ones.
+                                                             \n\n
+2. Exfoliation should be done not every day but 3-4 times in a week of 7 days with gaps.
+       \n\n
+3. Beads of exfoliation must be real fine.
+           \n\n
+4. Do clay masks which are non-reactive like of multani mitti and rose water, which u can permute and combine with a pinch of turmeric and 1tbspn of besan or whole wheat flour i.e atta.
+               \n\n
+5.Mint masks are also good , paste of fresh mint leaves can make your skin feel like heaven and not to mention it’s smell will leave you asking for more
+                   \n\n
+6. You can also do an avocado and honey mask for those with sensitive and dry skin.
+                       \n\n
+7. Do not forget to put on sunscreen before going out.
+                           \n\n
+8. Look into your scalp, it may be the reason for you face skin sensitivity, often it happens that rashes appear due to presence of dandruff on the scalp. If there is dandruff, do some immediate treatments for getting rid of it.
+                               \n\n
+9. Drink 8-10 glasses of water and maintain at least 8-10 hours of sleep each day.
+                                   \n\n
+10. Include sprouts in your diet, and fresh vegetables and also seasonal fruits (apples and bananas should be had regularly and also grapes for their antioxidant properties are great for you.
+                                       \n\n
+11. Have a multi vitamin capsule at an interval of 2 days or so.\n\n">
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sunkenEyes">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="65dp"
+                android:text="For Sunken Eyes
+\n \n     1. Almond Oil And Honey\n
+
+
+All you need is the combination of a teaspoon of honey and half a teaspoon of almond oil. Apply the mixture to your under-eye area before going to bed. Leave it on overnight and wash it off in the morning.
+\n
+\n      2. Raw Potato Juice\n
+This is also equally effective in treating sore eyes and dark circles. Place two slices of potato on your eyes for 10 minutes or apply raw potato juice to the under-eye area, and you will notice the difference within a few days.
+\n
+                       \n\n"></TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
